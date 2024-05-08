@@ -32,4 +32,7 @@ cadastroForm.addEventListener('submit', (e) => {
 
     // Enviar dados para o servidor
     console.log(`Nome: ${nome}, E-mail: ${email}, Senha: ${senha}`);
+
+    // Redirecionar para a página index.html após o login
+    window.location.href = 'index.html';
 });
