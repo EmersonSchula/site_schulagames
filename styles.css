@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 :root {
-  --cor0: #80c2ff;
-  --cor1: #0086ff;
-  --cor2: #0000FF;
+  --cor0: #000102;
+  --cor1: #020d16;
+  --cor2: #000005;
   --cor3: #3939AA;
   --cor4: #EDFF00;
   --cor5: #FFD100;
@@ -21,7 +21,7 @@
 body {
   max-width: 1500px;
   margin: auto;
-  background-image: radial-gradient(circle, #0086ff,#0000FF, black);
+  background-image: radial-gradient(ellipse, #010b14,#01010e, black);
   color: var(--cor4);
   font-size: 1.2em;
   font-family: var(--font-destaque), sans-serif;
