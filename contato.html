@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1609181516459369"
      crossorigin="anonymous"></script>
+    <!-- Adicionar a biblioteca de autenticação do Google -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 
 <body>
@@ -33,6 +35,12 @@
                 <input type="password" id="loginSenha" name="loginSenha" required>
                 <button type="submit">Entrar</button>
             </form>
+            
+            <!-- Botão de Login com Google -->
+            <div class="google-login-container">
+                <p>Ou faça login com:</p>
+                <div id="g_id_signin" class="google-btn"></div>
+            </div>
         </div>
 
         <div class="cadastro">
@@ -48,6 +56,12 @@
                 <input type="password" id="confirmacao-senha" name="confirmacao-senha" required>
                 <button type="submit">Cadastrar</button>
             </form>
+            
+            <!-- Botão de Cadastro com Google -->
+            <div class="google-login-container">
+                <p>Ou cadastre-se com:</p>
+                <div id="g_id_signup" class="google-btn"></div>
+            </div>
         </div>
 
     </main>

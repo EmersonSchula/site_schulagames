@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1609181516459369"
      crossorigin="anonymous"></script>
+    <!-- Adicionar a biblioteca de autenticação do Google -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
 </head>
 <body>
     <header>
@@ -20,6 +22,12 @@
                 <li><a href="contato.html" target="_self" rel="prev">Contato</a>
             </ul>
         </nav>
+        <!-- Área de informação do usuário logado -->
+        <div id="user-status" class="user-area">
+            <div id="user-info" class="user-info"></div>
+            <button id="logout-btn" class="logout-btn">Sair</button>
+        </div>
+        
         <img src="imagens/banner.png" alt="logo" id="logo">
         <nav>
             <ul class="social-menu">
